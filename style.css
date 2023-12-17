@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    margin-top: 47px;
+    margin-left: 42px;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    gap: 32px;
+}
+
+header ul li a{
+    color: #17233d;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.875px;
+}
+.header-btn{ 
+    cursor: pointer;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: solid 1px #4cb538;
+    background-color: #6fbf44;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 32px;
+}
+main{
+    display: flex;
+    margin-top: 163px;
+    margin-left: 121px;
+}
+.main-img{
+    width: 596px;
+    height: 500px;
+}
+.container{
+    margin-left: 96.83px;
+    width: 493px;
+}
+h1{
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px; 
+    letter-spacing: 0.596px;
+    margin-top: 72px;
+    width: 583px;
+}
+p{
+    margin-top: 47px;
+    margin-bottom: 55px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+}
+
+.container a{
+    color: #6fbf44;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+
+@media screen and (max-width: 900px){
+    body{   
+     height: 800px;
+}
+
+    header{
+        margin: 0;
+        padding: 20px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    header ul{
+        display: none;
+    }
+    .header-btn{
+        margin: 0;
+        top: 20px;
+        position: fixed;
+        right: 5%;
+  
+    }
+    main{
+        padding: 10%;
+        display: block;
+        margin: 0;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 55%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .container-img{
+        width: 100%;
+        height: 40%;
+        padding: 10%;
+    }
+    .main-img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        bottom: 10%;
+        top: 500px;
+    }
+    h1{
+        margin: 0;
+        font-size: 30px;
+        width: 100%;
+        line-height: 36px;
+        text-align: center;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        margin: 30px 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+    .main-img{
+        top: 550px;
+   
+    }
+
+}
